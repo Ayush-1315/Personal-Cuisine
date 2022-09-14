@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dishes {
+  margin: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  background-color: #047857;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.dishes:hover {
+  background-color: #0b7896;
+}
+#output {
+  border-top: 2px solid black;
+  margin: auto;
+  width: 60%;
+}
+.dishesPresent {
+  list-style: none;
+  text-align: left;
+  padding: 0.3rem;
+  border: 2px solid gray;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 70%;
+}
+.ratings {
+  display: block;
+  margin: 0.4rem 0;
+}
